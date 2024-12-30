@@ -1,7 +1,6 @@
 import streamlit as st
 import speech_recognition as sr
 import pyttsx3
-import time
 from transformers import pipeline
 
 engine = pyttsx3.init()
